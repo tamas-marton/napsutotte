@@ -5,3 +5,5 @@ Miki és Tomi dzsemje
 - Minden, a végeredményt előre mozdító commit-ot a `master` branch-be
   tolunk.
 - Nem használunk verziószámokat.
+- Sávok törlése után nem felejtünk el "Clean-up"-ot futtatni
+  Ardour-ban.
