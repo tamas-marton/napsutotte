@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="hiperkarma-napsutotte-resz" sample-rate="44100" end-is-free="0" id-counter="31619" name-counter="5" event-counter="9656" vca-counter="1">
+<Session version="3002" name="hiperkarma-napsutotte-resz" sample-rate="44100" end-is-free="0" id-counter="31628" name-counter="5" event-counter="9851" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -112,9 +112,7 @@
     <Region name="elektrik-35.38" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="201044" length="328759" position="1342456" beat="51.75000453514739" sync-position="201044" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="17" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1.7370703220367432" id="20874" type="audio" first-edit="nothing" source-0="19774" master-source-0="19774" channels="1"/>
     <Region name="elektrik - proc-5" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7942144" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="21420" type="audio" first-edit="nothing" source-0="21399" source-1="21401" master-source-0="21399" master-source-1="21401" channels="2"/>
   </Regions>
-  <Selection>
-    <StripableAutomationControl stripable="568" control="0" order="1"/>
-  </Selection>
+  <Selection/>
   <Locations>
     <Location id="259" name="session" start="0" end="7938000" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
     <Location id="1292" name="solo" start="5499529" end="6329647" flags="IsRangeMarker" locked="0" position-lock-style="AudioTime"/>
@@ -353,7 +351,7 @@
           <Automation>
             <AutomationList automation-id="gain" id="3207" interpolation-style="Linear" state="Off"/>
           </Automation>
-          <Controllable name="gaincontrol" id="3208" flags="GainLike" value="0.21888770163059235"/>
+          <Controllable name="gaincontrol" id="3208" flags="GainLike" value="0.064840801060199738"/>
         </Processor>
       </Processor>
       <Processor id="24268" name="a-Compressor stereo" active="1" user-latency="0" type="lv2" unique-id="urn:ardour:a-comp#stereo" count="1" custom="0">
@@ -438,7 +436,7 @@
     <Route id="446" name="akusztik" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="2" flags="AudioTrack,OrderSet" color="3856109311"/>
       <Controllable name="solo" id="454" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
-      <Controllable name="solo-iso" id="460" flags="Toggle,RealTime" value="1" solo-isolated="1"/>
+      <Controllable name="solo-iso" id="460" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="462" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="akusztik" id="474" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="akusztik/audio_in 1">
@@ -652,7 +650,7 @@
           <Automation>
             <AutomationList automation-id="gain" id="3010" interpolation-style="Linear" state="Off"/>
           </Automation>
-          <Controllable name="gaincontrol" id="3011" flags="GainLike" value="0.41550910472869873"/>
+          <Controllable name="gaincontrol" id="3011" flags="GainLike" value="0.27864044904708862"/>
         </Processor>
       </Processor>
       <Processor id="478" name="meter-akusztik" active="1" user-latency="0" type="meter"/>
@@ -813,7 +811,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="571" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="572" flags="GainLike" value="0.40102675557136536"/>
+        <Controllable name="gaincontrol" id="572" flags="GainLike" value="0.36176818609237671"/>
       </Processor>
       <Processor id="31598" name="a-Compressor" active="1" user-latency="0" type="lv2" unique-id="urn:ardour:a-comp" count="1" custom="0">
         <Automation>
@@ -893,7 +891,7 @@
           <Automation>
             <AutomationList automation-id="gain" id="3299" interpolation-style="Linear" state="Off"/>
           </Automation>
-          <Controllable name="gaincontrol" id="3300" flags="GainLike" value="0.26529589295387268"/>
+          <Controllable name="gaincontrol" id="3300" flags="GainLike" value="0.012911104597151279"/>
         </Processor>
       </Processor>
       <Processor id="600" name="meter-bassz" active="1" user-latency="0" type="meter"/>
@@ -1467,7 +1465,7 @@
           <Automation>
             <AutomationList automation-id="gain" id="8864" interpolation-style="Linear" state="Off"/>
           </Automation>
-          <Controllable name="gaincontrol" id="8865" flags="GainLike" value="0.14281979203224182"/>
+          <Controllable name="gaincontrol" id="8865" flags="GainLike" value="0.041837528347969055"/>
         </Processor>
       </Processor>
       <Processor id="8829" name="reverb" active="1" user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="4" selfdestruct="0" target="2917" allow-feedback="0">
@@ -1495,7 +1493,7 @@
           <Automation>
             <AutomationList automation-id="gain" id="8842" interpolation-style="Linear" state="Off"/>
           </Automation>
-          <Controllable name="gaincontrol" id="8843" flags="GainLike" value="0.31781482696533203"/>
+          <Controllable name="gaincontrol" id="8843" flags="GainLike" value="0.15404310822486877"/>
         </Processor>
       </Processor>
       <Processor id="5717" name="meter-elektrik - proc" active="1" user-latency="0" type="meter"/>
@@ -1609,7 +1607,7 @@
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
           <Port symbol="BPM" value="102"/>
-          <Port symbol="FEEDBACK" value="50"/>
+          <Port symbol="FEEDBACK" value="16.319595336914062"/>
           <Port symbol="GAIN" value="100"/>
           <Port symbol="HIGHPASS" value="120"/>
           <Port symbol="HOWPASS" value="12000"/>
@@ -1618,7 +1616,7 @@
           <Port symbol="NOTES" value="7"/>
         </lv2>
         <Controllable name="BPM" id="8875" flags="" value="102" parameter="2" symbol="BPM"/>
-        <Controllable name="FEEDBACK" id="8877" flags="" value="50" parameter="3" symbol="FEEDBACK"/>
+        <Controllable name="FEEDBACK" id="8877" flags="" value="16.319595336914062" parameter="3" symbol="FEEDBACK"/>
         <Controllable name="GAIN" id="8879" flags="" value="100" parameter="4" symbol="GAIN"/>
         <Controllable name="HIGHPASS" id="8881" flags="" value="120" parameter="5" symbol="HIGHPASS"/>
         <Controllable name="HOWPASS" id="8883" flags="" value="12000" parameter="6" symbol="HOWPASS"/>
@@ -2530,7 +2528,7 @@
       <Window name="PM-4259-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-4261-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-4262-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-568-31598" visible="0" x-off="0" y-off="100" x-size="1041" y-size="471" custom-ui="1"/>
+      <Window name="P-568-31598" visible="0" x-off="534" y-off="195" x-size="1041" y-size="471" custom-ui="1"/>
       <Window name="PM-31598-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="64" visible="1"/>
